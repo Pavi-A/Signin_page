@@ -1,0 +1,215 @@
+
+/* General Styles */
+body, html {
+    margin-left: 130px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    width: 1000px;
+    height: 100%;
+}
+
+/* Container */
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%; 
+    background: #fff;
+}
+
+
+.login-section {
+    flex: 1;
+    padding: 2rem;
+}
+
+.logo img {
+    width: 180px;
+}
+
+.sign i {
+    font-size: 50px; /* Adjust size */
+    color: #007BFF; /* Blue color */
+    margin-bottom: 15px;
+    display: block;
+    text-align: center;
+}
+.sign h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.sign p {
+    font-size: 14px;
+    color: #666;
+}
+
+form {
+    margin-top: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 0.8rem;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background: #0056b3;
+}
+
+.links {
+    margin-top: 1rem;
+}
+
+.links a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Banner Section */
+.banner-section {
+    flex: 1;
+    background-color: #f9fafc;
+    position: relative;
+    text-align: center;
+    padding: 2rem;
+}
+
+.banner-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.banner-content {
+    margin-top: 2rem;
+    color: #333;
+}
+
+.banner-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.banner-content p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #666;
+}
+
+strong {
+    font-weight: bold;
+}
+/* Container for the login button */
+.login-button-container {
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    
+}
+
+/* Outer button with the arrow */
+.outer-button {
+    display: flex;
+    align-items: center;
+    background-color: #011a35; 
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+
+/* Arrow styling */
+.outer-button .arrow {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+/* Inner button (white part) */
+.inner-button {
+    background-color: #fff;
+    color: #19191a; 
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+/* Hover effect for the outer button */
+.outer-button:hover {
+    background-color: #0056b3; 
+}
+
+.outer-button:hover .inner-button {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+/* Styling for the links */
+.underline-link {
+    text-decoration: underline; 
+    color: #202224; 
+    cursor: pointer; 
+}
+
+/* Hover effect for the links */
+.underline-link:hover {
+    color: #0f0f0f; 
+    text-decoration-color: #0e0e0f; 
+}
+
+/* Paragraph styling (optional, for alignment and spacing) */
+.help-links p {
+    font-family: Arial, sans-serif; 
+    font-size: 0.9rem; 
+    line-height: 1.6; 
+    color: #000; 
+    text-align: right; 
+}
+
